@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Front End News",
+  "description": "Front End News every day",
+  "version": "1.0",
+
+  "author": "fengshangwuqi, fengshangwuqi@gmail.com",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": [
+      "background/utils.js",
+      "background/API.js",
+      "background/News.js",
+      "background/background.js"
+    ]
+  },
+
+  "permissions": ["webRequest"]
+}
